@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Asap);
+.wrapper {
+	max-width: 92%;
+	margin: 0 auto;
+}
+#site-header {
+	background: #37474F;
+	height: 70px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 0;
+}
+#logo {
+	float:left;
+	margin-top:12px;
+}
+#logo a {
+	font-family: 'Asap', sans-serif;
+	text-decoration: none;
+	font-size: 2em;
+	color: #E0E0E0;
+}
+#main-nav {
+	float:left;
+	margin: 22px 0 0;
+	padding-left: 50px;
+}
+#main-nav li {
+	display:inline;
+}
+#main-nav li a {
+	font-family: 'Asap', sans-serif;
+	text-decoration:none;
+	color: #fff;
+  font-size: 1.4em;
+  padding: 0 10px;
+}
+#header-image {
+	background-image: url("/images/flour-mill-05.jpg");
+	background-repeat: no-repeat;
+	height: 420px;
+	position: fixed;
+	top: 70px;
+	width: 100%;
+	z-index: -2;
+}
+
+article.post {
+	background: #fff;
+	position: relative;
+	top: 320px;
+	padding: 10px;
+	z-index: -1;
+}
+
+
