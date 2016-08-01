@@ -98,3 +98,37 @@ div[itemprop="address"], .time, .payments {
 	padding: 15px 0 12px;
 	margin: 0;
 }
+
+.menu-item {
+	border-bottom: 1px solid #E0E0E0;
+	padding: 10px 20px;
+}
+.menu-item-last {border-bottom:none;}
+span.price {color: #9E9E9E; font-size: 14px;}
+small {margin-left: 20px;}
+.menu-content {padding-top:10px;}
+p.pizza {text-align:center;}
+.table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #E0E0E0; 
+}
+th { 
+  background: #37474F; 
+  color: white; 
+  font-weight: lighter; 
+}
+td, th { 
+  padding: 6px;  
+  text-align: left; 
+}
+
+footer {margin-top: 30px;}

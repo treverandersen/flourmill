@@ -3,11 +3,9 @@ layout: menu
 title: Salads
 ---
 
-<section>
+<section class="menu-content">
     <!-- SALADS -->
-    <div class="menu-item">
-      <p>SERVED WITH GARLIC BREAD<br>ADD GRILLED CHICKEN BREAST - $3</p>
-    </div>
+    <small>Served with Garlic Bread, Add Grilled Chicken Breast $3</small>
     <div class="menu-item">
       <h3>CAESAR</h3>
       <p>diced tomatoes, croutons, and parmesean cheese tossed together with crisp romaine lettuce and caesar dressing</p>

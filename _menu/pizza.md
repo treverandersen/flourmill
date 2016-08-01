@@ -3,9 +3,9 @@ layout: menu
 title: Pizza
 ---
 
-<section>
+<section class="menu-content">
     <!-- PIZZA -->
-    <p>CREATE YOUR OWN FROM OUR LIST OF FRESH INGREDIENTS</p>
+    <p class="pizza">CREATE YOUR OWN FROM OUR LIST OF FRESH INGREDIENTS</p>
     <table>
       <thead>
           <tr>
@@ -37,35 +37,16 @@ title: Pizza
           </tr>
       </tbody>
     </table>
-    <div class="pizza-toppings">
-      <h4>SAUCES</h4>
-      <ul>
-          <li>red</li>
-          <li>white</li>
-          <li>pesto</li>
-          <li>oil &amp; garlic</li>
-      </ul>
-      <h4>MEATS</h4>
-      <ul>
-          <li>beef</li>
-          <li>sausage</li>
-          <li>frikadeller</li>
-          <li>pepperoni</li>
-          <li>canadian bacon</li>
-          <li>bacon</li>
-          <li>chicken</li>
-      </ul>
-      <h4>VEGGIES</h4>
-      <ul>
-          <li>mushroom</li>
-          <li>onion</li>
-          <li>bell pepper</li>
-          <li>black olive</li>
-          <li>tomato</li>
-          <li>jalapeno</li>
-          <li>spinach</li>
-          <li>green onion</li>
-          <li>pineapple</li>
-      </ul>
+    <div class="menu-item">
+      <h3>SAUCES</h3>
+      <p>Red, White, Pesto, Oil &amp; Garlic</p>
+    </div>
+    <div class="menu-item">
+      <h3>MEATS</h3>
+      <p>Beef, Sausage, Frikadeller, Pepperoni, Bacon, Canadian Bacon, Chicken</p>
+    </div>
+    <div class="menu-item">
+      <h3>VEGGIES</h3>
+      <p>Mushroom, Onion, Bell Peppers, Black Olive, Tomato, Jalepeno, Spinach, Green Onion, Pineapple</p>
     </div>
   </section>

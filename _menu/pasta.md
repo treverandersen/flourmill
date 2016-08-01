@@ -3,9 +3,9 @@ layout: menu
 title: Pasta
 ---
 
-<section>
+<section class="menu-content">
     <!-- PASTA -->
-    <p>SERVED WITH GARLIC BREAD<br>ADD CHOICE OF MEAT $3</p>
+    <small>Served with Garlic Bread, Add choice of Meat $3</small>
     <div class="menu-item">
       <h3>FETTUCINE ALL'ALFREDO</h3>
       <p>a white butter, cream and parmesean sauce</p>

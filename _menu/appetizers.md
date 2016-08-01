@@ -3,7 +3,7 @@ layout: menu
 title: Appetizers
 ---
 
-<section>
+<section class="menu-content">
       <!-- APPETIZERS -->
     <div class="menu-item">
       <h3>BRUCHETTA CRUSTINIES</h3>
@@ -20,7 +20,7 @@ title: Appetizers
       <p>soft slices of baguette served along side a dipping bowl of olive oil, garlic, and house herbs</p>
       <span class="price">$5</span>
     </div>
-    <div class="menu-item">
+    <div class="menu-item menu-item-last">
       <h3>FRIKIN' RAVIOLI</h3>
       <p>hand-made scratch raviolis filled with cheeses and a frikadelle meatball served with house red sauce</p>
       <span class="price">$6.50</span>
