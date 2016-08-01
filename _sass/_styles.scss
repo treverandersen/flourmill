@@ -46,7 +46,7 @@
 	position: fixed;
 	top: 70px;
 	width: 100%;
-	z-index: -2;
+	z-index: -1;
 }
 
 article.post {
@@ -55,6 +55,28 @@ article.post {
 	top: 320px;
 	padding: 10px;
 	z-index: 0;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	border-radius:2px;
+	float: left;
 }
 
-
+#sidebar {
+	box-shadow: 0px 1px 4px 0px #0003;
+	border-radius:2px;
+	float:left;
+	position: fixed;
+	top:390px;
+	padding:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	border-radius:2px;
+	background: #FFF;
+	left: 63%;
+	max-width: 100%;
+	margin: 0 30px 0 20px;
+}
+.business-name {
+	font-size:2em;
+}
+div[itemprop="address"], .time, .payments {
+	margin: 10px 0;
+}
