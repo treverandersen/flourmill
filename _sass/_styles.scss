@@ -48,8 +48,19 @@
 	width: 100%;
 	z-index: -1;
 }
-
-article.post {
+.page-heading {
+	font-family: 'Asap', sans-serif;
+	text-align: center;
+}
+section.post-list {
+	text-align: center;
+	padding: 10px 0;
+	margin: 10px 50px;
+}
+section.post-list h2 a {
+	color: #000;
+}
+article.post, .home {
 	background: #fff;
 	position: relative;
 	top: 320px;
@@ -57,6 +68,9 @@ article.post {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	border-radius:2px;
 	float: left;
+}
+.single-post {
+	padding: 0 30px;
 }
 .post-content ul {display:inline;list-style:none;}
 .post-content ul li {float:left;}
