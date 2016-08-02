@@ -72,6 +72,10 @@ article.post, .home {
 .single-post {
 	padding: 0 30px;
 }
+.post-content img {
+	max-width:100%;
+	height:auto;
+}
 .post-content ul {display:inline;list-style:none;}
 .post-content ul li {float:left;}
 .post-content ul li a {
